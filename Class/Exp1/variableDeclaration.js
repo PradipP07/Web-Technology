@@ -27,7 +27,7 @@ testVar();
 let numVar = 42;
 let strVar = "Hello, World!";
 let boolVar = true;
-let objVar = { name: "Suyog", age: 25 };
+let objVar = { name: "Pradip", age: 25 };
 let arrVar = [1, 2, 3, 4, 5];
 let nullVar = null;
 let undefVar;   
