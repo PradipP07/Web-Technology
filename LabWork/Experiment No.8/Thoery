@@ -1,0 +1,30 @@
+Angular cli- command line interface
+ng serve = run command
+ng serve -o = open in browser automatically
+port is 4000
+
+package.json = config file info about your project
+package-lock.json = also config file bur detailed info
+angular.json = project .json file
+style.css = globally css style
+.gitignore = file execute to version control
+.editorconfig = vs code setting
+index.html = main html file load angular
+main.ts = entry file of app
+app.config.ts = app config file
+
+datatypes = premitive and non-premitive
+
+components is a UI block of structure 
+when we create component , component crete 4 files html=UI,css=Style,.ts=logic and spec.ts=unit testing file
+create component = ng genearte component compnent name
+
+two types of data binding = 1 way and 2 way
+3 types of data binding in 1-way:
+    interpolation: {{ value }}
+    property: [property] = "value"
+    event: (event) = "handler()"
+
+two-way: [(ngModel)] = "value"
+
+data binding = connect UI to code

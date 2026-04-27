@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Speed Math Quiz</title>
+<style>
+body{
+    font-family: Arial;
+    text-align:center;
+    margin-top:100px;
+}
+
+#question{
+    font-size:30px;
+    margin:20px;
+}
+
+input{
+    padding:10px;
+    font-size:18px;
+}
+
+button{
+    padding:10px 20px;
+    font-size:18px;
+}
+
+#score,#timer{
+    font-size:20px;
+    margin:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Speed Math Quiz</h1>
+
+<div id="timer">Time: 30</div>
+<div id="score">Score: 0</div>
+
+<div id="question">0 + 0</div>
+
+<input type="number" id="answer" placeholder="Enter answer">
+
+<br><br>
+
+<button onclick="checkAnswer()">Submit</button>
+
+<p id="result"></p>
+
+<script src="p1.js"></script>
+
+</body>
+</html>
