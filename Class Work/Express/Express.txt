@@ -1,0 +1,26 @@
+Expresss is a minimal and flexible web application framework of "nodejs" that simplifies the development of web servers and api's.
+
+#Features: 
+-Routing, 
+-Middle ware suppport, 
+-request and response handling, 
+-rest api's creation, 
+-template rendering.
+
+steps for install Express:
+-npm init - Enter......
+-npm install express
+
+npm = node package manager
+
+Act1: Diff between package.json and package-lock.json
+Act2: Diff between Dependencies and dev Dependencies
+Act3: Http methods
+
+Routing('/ ') refers to determining: how an application response to an client request for specific url and http method.
+
+Component of Routing:
+url paths, http methods, handler fxn
+
+Middle ware in Express.js: Middle ware fxn are fxs that executes during lifecycle of request before sending the final response
+they have access to request , response and next
