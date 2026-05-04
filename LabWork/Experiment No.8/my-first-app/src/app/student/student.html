@@ -1,0 +1,13 @@
+<h2>Student Data!</h2>
+<h3>Name: {{name}}</h3>
+<h3>PRN: {{PRN}}</h3>
+<h3>Department: {{dept}}</h3>
+
+<h2>ngModel</h2>
+<input [(ngModel)] = "name" placeholder="name"/>
+
+<button (click)=changeName()>Change Name</button>
+<button (click)="showAlert()">Show Alert</button>
+<h2>Updated Name: {{name}}</h2>
+
+{{cityArr}}
